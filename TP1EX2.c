@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-//TP1 - Exercice 1
+//TP1 - Exercice 2
 int main()
 {
     printf("*********************************************************\n");
