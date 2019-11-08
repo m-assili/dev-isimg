@@ -16,7 +16,7 @@ int main()
     scanf("%d",&hauteur);
     for(int i=0;i<n;i++)
     {
-        for(int j=n-i-1;j>=0;j--)
+        for(int j=n-i-1;j>=0;j--)// ou bien for(int j=0; j<n-i-1;j++)
             printf(" ");
         for(int k=0;k<2*i+1;k++)
         {
