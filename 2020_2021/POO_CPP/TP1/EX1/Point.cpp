@@ -6,3 +6,4 @@ Point::Point(){
   abscisse=0;
   ordonne=0;
 }
+// to be continued ...
