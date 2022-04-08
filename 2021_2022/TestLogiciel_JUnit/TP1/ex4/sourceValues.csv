@@ -1,0 +1,8 @@
+chaine,caractere,expected
+couscous,s,2
+Couscous,o,2
+Couscous,i,0
+Couscous,c,2
+COUSCOUS,C,2
+,c,0
+
