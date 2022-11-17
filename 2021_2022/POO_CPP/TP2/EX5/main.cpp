@@ -5,9 +5,14 @@ using namespace std;
 
 int main()
 {
-
-    Etudiant e1;
-    e1.setNom("Assili");
+    string nom;
+    int n;
+    cout << "Donner le nom:";
+    cin >> nom;
+    cout << "Donner le nombre de note:";
+    cin >> n;
+    Etudiant e1(nom,n);
+    
     e1.saisie();
     e1.affiche();
     cout << "Resultat:";

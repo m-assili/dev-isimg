@@ -7,7 +7,7 @@ class Etudiant
 {
     public:
         Etudiant();
-        Etudiant(std::string);
+        Etudiant(std::string,int);
         Etudiant(const Etudiant&);
         virtual ~Etudiant();
         int getMatricule()const;
@@ -23,7 +23,8 @@ class Etudiant
 
 
     private:
-        static int matricule;
+        static int cpt;
+        int matricule;
         std::string nom;
         int nbNotes;
         double* tabNotes;
